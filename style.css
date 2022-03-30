@@ -1,0 +1,91 @@
+body {
+    box-sizing: border-box;
+    margin: 32px;
+    color: #555555;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+header {
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    /* position: absolute; */
+    width: 198px;
+    height: 36px;
+}
+
+.navigation {
+    align-items: center;
+    display: flex;  
+}
+
+.navigation ul {
+    display: none;
+    margin: 0;
+}
+
+.navigation ul li {
+    display: inline;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: #555555;
+    margin: 0 28px;
+    line-height: 20px;
+}
+
+#sign_up {
+    color: #FF3998;
+}
+
+.hamburger {
+    width: 24px;
+    height: 22px;
+}
+
+.hero-container {
+    display: flex;
+    height: 448px;
+}
+
+.hero-text {
+    width: 274px;
+    margin-top: 50px;
+    /* float: left; */
+}
+
+#launching_soon {
+    color: #FF3998;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1.6px;
+}
+
+.hero-container img {
+    /* float: right; */
+    /* height: 278px; */
+    /* width: 100%; */
+    /* position: absolute; */
+    left: 325px;
+}
+
+
+@media only screen and (min-width: 900px) {
+    body {
+        margin: 70px 80px;
+    }
+    .navigation ul {
+        display: flex;
+    }
+    .hamburger {
+        display: none;
+    }
+}
+
