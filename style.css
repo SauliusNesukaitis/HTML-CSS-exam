@@ -4,7 +4,6 @@ body {
     color: #555555;
     font-family: 'Inter', sans-serif;
     margin: 0;
-    /* overflow-x: hidden; */
 }
 
 header {
@@ -118,8 +117,8 @@ h1 {
 .upsell-container {
     background-image: url(/assets/background.svg);
     background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: center;
+    background-position: center;
+    background-size: cover;
     margin: 75px 0;
     height: 326px;
     width: 100%;
@@ -363,7 +362,6 @@ h1 {
 @media only screen and (min-width: 960px) {
     body {
         margin: 70px 80px;
-        width: 1280px;
     }
 
     header {
@@ -381,7 +379,6 @@ h1 {
     .hero-container {
         height: 519px;
         margin: 130px 0;
-        width: 1120px;
     }
 
     .hero-text {
